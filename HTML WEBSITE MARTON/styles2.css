@@ -1,0 +1,68 @@
+.bi{
+    color: rgb(0, 98, 255);
+}
+.product-minplus{
+    color: black;
+}
+.productnaam{
+    padding-right: 20%;
+}
+.productcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.Amountnaamoverzicht{
+    margin-left: 13%;
+}
+.custom-kleur{
+    color: white;
+    background-color: rgb(0, 98, 255);
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+.containerbutton{
+    background-color: rgb(0, 98, 255);
+    border: 2px solid black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto;
+}
+.containerbutton:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.containerbutton a{
+    list-style: none;
+}
+
+.raarrow{
+    margin-top: 30px;
+}
+.table th,
+.table td{
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid #dee2e6;
+}
+.table td:first-child,
+.table th:first-child
+{
+    border-left: 2px solid #dee2e6;
+}
+.table td:last-child,
+.table th:last-child{
+    border-right: 2px solid #dee2e6;
+}
